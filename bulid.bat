@@ -1,1 +1,1 @@
-sass style.scss style.css --style compact --sourcemap 
+sass style.scss ./Releases/style.css --style compact --sourcemap 
