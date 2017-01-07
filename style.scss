@@ -1,0 +1,79 @@
+/*!
+ * @Title       贴吧样式修改
+ * @Author      A1003064738
+ * @Create      2016-10-30
+ * @Update      2016-10-30
+ * @Version     beta-0.0.1
+ */
+@import "function";
+/* 隐藏 首页 顶部滚动 */
+.top-sec {
+    @include hidden;
+}
+/*隐藏 首页 多多奇吧*/
+.r-top-sec {
+    @include hidden;
+}
+/* 隐藏 游戏直播 */
+.spage_liveshow_slide {
+    @include hidden;
+}
+/* 隐藏 首页 推广 */
+.platact_bigouter {
+    @include hidden;
+}
+/* 隐藏 首页 右侧栏目 */
+.r-right-sec {
+    @include hidden;
+}
+/* 隐藏 首页 我的游戏 */
+#spage_game_tab_wrapper {
+    @include hidden;
+}
+/* 宽度调整 首页 顶部选择栏 */
+.sub_nav_wrap {
+    width: 778px!important;
+    background: none!important;
+    background-color: rgb(248,248,248)!important;
+    border: 1px solid rgb(224,223,223)!important;
+}
+
+.r-left-sec {
+    width: 780px!important;
+}
+/* 适配宽度 首页 帖子预览 */
+.j_feed_li > .n_right {
+    width: 778px!important;
+}
+/* 隐藏 吧内 右侧推荐应用 */
+#pagelet_encourage-appforum\/pagelet\/my_app {
+    @include hidden;
+}
+/* 隐藏 吧内 右侧贴吧热议 */
+#pagelet_frs-aside\/pagelet\/hottopic {
+    @include hidden;
+}
+/* 隐藏 吧内 右侧会员 */
+#pagelet_encourage-celebrity\/pagelet\/celebrity > .aside_region > .region_cnt {
+    @include hidden;
+}
+/* 隐藏 吧内 顶部视频 */
+.video_frs_head {
+    @include hidden;
+}
+/* 隐藏 吧内 访谈 */
+#pagelet_live\/pagelet\/live {
+    @include hidden;
+}
+/* 隐藏 帖内 右侧视频推荐 */
+.video_aside {
+    @include hidden;
+}
+/* 隐藏 帖内 贴吧热议榜 */
+.right_bright > div:nth-child(5) {
+    // @include hidden;
+}
+/* 隐藏 帖内 会员 */
+.right_bright > div:nth-child(1) {
+    // @include hidden;
+}
