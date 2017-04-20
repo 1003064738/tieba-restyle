@@ -1,0 +1,13 @@
+@import "function";
+/* 隐藏 吧内 假帖广告 */
+#thread_list > .clearfix:not([data-field *= "post_id"]) {
+    @include hidden;
+}
+/* 隐藏 贴内 假帖广告 */
+#j_p_postlist > .clearfix:not([data-field *= "post_id"]) {
+    @include hidden;
+}
+/* 隐藏 贴内 右侧iframe广告 */
+.right_section > div:not([class *= "region"]) {
+    @include hidden;
+}

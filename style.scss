@@ -1,16 +1,18 @@
 /*!
- * @Title       贴吧恼人元素隐藏
+ * @Title       tieba-restyle
  * @Author      A1003064738
  * @Create      2016-10-30
  * @Update      2016-10-30
  * @Version     beta-0.0.1
  */
 @import "function";
+/* 隐藏广告 */
+@import "adkill";
 /* 隐藏 首页 顶部滚动 */
 .top-sec {
     @include hidden;
 }
-/*隐藏 首页 多多奇吧*/
+/*隐藏 首页 朵朵奇吧*/
 .r-top-sec {
     @include hidden;
 }
@@ -76,4 +78,8 @@
 /* 隐藏 帖内 会员 */
 .right_bright > div:nth-child(1) {
     // @include hidden;
+}
+/* 隐藏 帖内 推荐应用 */
+.right_bright > #encourage_entry {
+    @include hidden;
 }
